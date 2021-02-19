@@ -266,6 +266,7 @@ function ncc (
             options: {
               transpileOnly,
               compiler: eval('__dirname + "/typescript.js"'),
+              allowTsInNodeModules: true,
               compilerOptions: {
                 outDir: '//',
                 noEmit: false
